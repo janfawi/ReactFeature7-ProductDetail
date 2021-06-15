@@ -1,7 +1,7 @@
 // هذا المكان اللي يطلع منه كل كوكي
 // Styling
 import { ProductWrapper } from "../styles";
-import { DeleteButton } from "./buttons/DeleteButton";
+import DeleteButton from "./buttons/DeleteButton";
 const ProductItem = (props) => {
   const product = props.product;
 
